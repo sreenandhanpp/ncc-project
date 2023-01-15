@@ -455,7 +455,7 @@ SONG & LYRICS
 GALLERY
 ----------------------------------------*/
 .glass-section {
-  background: url('../images/gallery/gallerybg.jpg') 
+  background: url('../images/gallery/BeFunky-collage.jpg') 
   no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -463,6 +463,7 @@ GALLERY
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100%;
 }
 .glass-section a{
   color: white;
@@ -470,7 +471,7 @@ GALLERY
 .gallery .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 ;
 
 }
 #gallery h2{
@@ -733,6 +734,13 @@ GALLERY
   .news-detail-title {
     font-size: 30px;
   }
+  .glass-section{
+    background: url('../images/gallery/767x915.jpg')
+    no-repeat;
+  }
+  #gallery{
+  margin: 0;
+  }
   .emblem{
     max-width: 3rem;
   max-height: 6rem;
@@ -758,17 +766,16 @@ GALLERY
     max-width: 2rem;
   max-height: 3rem;
   }
-}
 
-@media screen and (max-width: 359px) {
+
   .news-detail-title {
     font-size: 32px;
   }
   .glass-section{
-    background: url('../images/gallery/gallerybg.jpg')
+    background: url('../images/gallery/360.jpg')
     no-repeat;
-    background-size: 20.8rem 20rem;
-    height: 20rem;
+    
+    height: 30rem;
   }
   h1{
     font-size: 17px;
