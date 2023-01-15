@@ -455,7 +455,7 @@ SONG & LYRICS
 GALLERY
 ----------------------------------------*/
 .glass-section {
-  background: url('images/gallery/gallerybg.jpg') 
+  background: url('/images/gallery/gallerybg.jpg') 
   no-repeat;
   background-attachment: fixed;
   background-size: cover;
