@@ -747,15 +747,13 @@ GALLERY
 
 @media screen and (max-width: 360px) {
   h1 {
-    font-size: 32px;
+    font-size: 20px;
   }
 
   .heroText p {
     font-size: 14px;
   }
-  .h1{
-    font-size: 10px;
-  }
+ 
   .emblem{
     max-width: 2rem;
   max-height: 3rem;
@@ -765,6 +763,12 @@ GALLERY
 @media screen and (max-width: 359px) {
   .news-detail-title {
     font-size: 32px;
+  }
+  .glass-section{
+    background: url('../images/gallery/gallerybg.jpg')
+    no-repeat;
+    background-size: 20.8rem 20rem;
+    height: 20rem;
   }
   h1{
     font-size: 17px;
