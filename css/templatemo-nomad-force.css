@@ -100,6 +100,11 @@ h6 {
   font-size: var(--h6-font-size);
 }
 
+.heading{
+  letter-spacing: 6px;
+  
+}
+
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
@@ -408,19 +413,19 @@ strong {
   padding: 22px 32px 32px 32px;
 }
 
-.carousel-control-next, 
-.carousel-control-prev {
+.about .carousel-control-next, 
+.about .carousel-control-prev {
   top: auto;
   bottom: 2.5rem;
 }
 
-.carousel-control-prev {
+.about .carousel-control-prev {
   right: 4rem;
   left: auto;
 }
 
-.carousel-control-next-icon, 
-.carousel-control-prev-icon {
+.about .carousel-control-next-icon, 
+.about .carousel-control-prev-icon {
   background-color: var(--dark-color);
   background-size: 50% 50%;
   border-radius: 100px;
@@ -443,7 +448,6 @@ strong {
 /*--------------------------------------
 SONG & LYRICS
 ----------------------------------------*/
-
 .over{
   max-width:16rem ;
   max-height: 27rem;
@@ -452,8 +456,69 @@ SONG & LYRICS
   background-color: #2D3092;
 }
 /*--------------------------------------
+ACTIVITY
+----------------------------------------*/
+.c-item {
+  height: 580px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.about-image,
+.team-image {
+  width: 100%;
+  height: 100%;
+  max-height: 635px;
+  min-height: 475px;
+  object-fit: cover;
+}
+
+.team-thumb {
+  background: var(--white-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 65%;
+  padding: 22px 32px 32px 32px;
+  background: #ffffff33;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.activity .carousel-control-next, 
+.activity .carousel-control-prev {
+  top: auto;
+  bottom: 2.5rem;
+}
+
+.activity .carousel-control-prev {
+  right: 4rem;
+  left: auto;
+}
+
+.activity .carousel-control-next-icon, 
+.activity .carousel-control-prev-icon {
+  background-color: var(--dark-color);
+  background-size: 50% 50%;
+  border-radius: 100px;
+  width: 3rem;
+  height: 3rem;
+}
+
+
+
+/*--------------------------------------
 GALLERY
 ----------------------------------------*/
+.gallery-padding{
+  padding-top: 5rem;
+  padding-bottom:5rem;
+}
+
 .glass-section {
   background: url('../images/gallery/BeFunky-collage.jpg') 
   no-repeat;
@@ -474,16 +539,11 @@ GALLERY
   padding: 0 ;
 
 }
-#gallery h2{
-  color: #2D3092;
-}
+
 .glass {
   position: relative;
   background: inherit;
   overflow: hidden;
-  width: 70%;
-  height: 70%;
-  border-radius: 16px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
               0 6px 20px rgba(0, 0, 0, 0.15);
   z-index: 1;
